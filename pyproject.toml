@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nautobot-plugin"
+version = "0.1.0"
+description = ""
+authors = ["Johnny Liao <johnnyliao06@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nautobot_plugin"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nautobot = "^1.5.22"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
