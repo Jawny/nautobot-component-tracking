@@ -1,0 +1,10 @@
+{# templates/nautobot_plugin/components.html #}
+{% extends 'base.html' %}
+
+{% block content %}
+{% with config=settings.PLUGINS_CONFIG.nautobot_plugin%}
+<h2 class="text-center" style="margin-top: 200px">
+    hello!
+</h2>
+{% endwith %}
+{% endblock %}
